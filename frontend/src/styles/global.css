@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7f5;
+  color: #26382e;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.swal2-popup {
+  border-radius: 16px !important;
+  font-family: Arial, sans-serif !important;
+}
+
+.swal2-title {
+  color: #243b30 !important;
+}
+
+.swal2-confirm,
+.swal2-cancel {
+  border-radius: 8px !important;
+  padding: 10px 24px !important;
+}
